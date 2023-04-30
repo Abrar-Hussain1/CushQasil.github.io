@@ -97,22 +97,22 @@ body {
     top: -22px;
   }
   28% {
-    top: -150px;
+    top: -152px;
   }
   55% {
-    top: -150px;
+    top: -152px;
   }
   60% {
-    top: -278px;
+    top: -282px;
   }
   90% {
-    top: -278px;
+    top: -282px;
   }
   95% {
-    top: -408px;
+    top: -412px;
   }
   100% {
-    top: -408px;
+    top: -412px;
   }
 }
 .hero-section .hero-side p {
@@ -930,5 +930,23 @@ input[type="radio"] {
   }
   .footer-section .main-footer a {
     margin-left: 5px;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .menu a{
+    display: none;
+  }
+  .hero-section .hero-img{
+    margin-top: 0;
+    padding-top: 0;
+  }
+  .footer-section {
+    text-align: center;
+  }
+  .footer-section .main-footer {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
   }
 }
